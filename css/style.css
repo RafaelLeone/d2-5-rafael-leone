@@ -6,12 +6,13 @@ body{
 
 .back{
     background-image: url(../imagens/pngwing.com.png);
+    background-attachment: fixed;
 }
 
 .all{
     width: 72%;
     background-color: rgb(252, 134, 0);
-    margin: 120px auto;
+    margin: auto;
     padding: 50px;
     border-radius: 10px;
 }
@@ -19,7 +20,7 @@ body{
 .top{
     text-align: center;
     color: white;
-    margin: 100px auto;
+    margin: auto;
     padding: 30px;
 }
 
