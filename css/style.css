@@ -1,5 +1,7 @@
 body{
     background-color: blue;
+    font-family: 'Lora', serif;
+    font-size: 1.5rem;
 }
 
 .all{
@@ -59,4 +61,8 @@ img{
 h1{
     font-size: 1.9rem;
     margin-top: 50px;
+}
+
+h3{
+    font-size: 1.5rem;
 }
