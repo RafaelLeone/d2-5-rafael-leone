@@ -5,8 +5,6 @@ body{
 }
 
 .back{
-    position: relative;
-    z-index: -2;
     background-image: url(../imagens/pngwing.com.png);
     background-attachment: fixed;
 }
@@ -20,10 +18,32 @@ body{
     border-radius: 10px;
 }
 
+.logomarca.fundo{
+    background-color: rgb(218, 42, 42);
+    width: 100px;
+    height: 100px;
+    float:right;
+    margin-top: -50px;
+    margin-right: 50%;
+    margin-bottom: 0;
+    transform: translateX(50%) rotate(45deg);
+}
+
+.logotipo{
+    color: black;
+    position: absolute;
+    right: 50%;
+    z-index: 1;
+    transform: translateX(50%);
+    font-size: 1.8rem;
+    padding-top: 12px;
+}
+
 .top{
     text-align: center;
     color: white;
     margin: auto;
+    padding-top: 0px;
     padding: 30px;
 }
 
@@ -64,7 +84,9 @@ body{
 }
 
 .logo{
+    text-align: center;
     width: 220px;
+    padding-top: 96px;
 }
 
 .pp img{
@@ -101,9 +123,7 @@ body{
 }
 
 .footer{
-    z-index: -1;
     margin-top: 100px;
-    position: relative;
     padding: 120px;
     background-color: black;
     color: white;
