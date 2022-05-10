@@ -35,10 +35,28 @@ body{
     text-decoration-color: rgb(114, 114, 114);
 }
 
+.menu li a:active{
+    text-decoration: underline;
+    text-decoration-color: rgb(25, 0, 255);
+}
+
 img{
     width: 36%;
 }
 
 .logo{
     width: 220px;
+}
+
+.pp{
+    float: left;
+}
+
+#about{
+    font-size: 1.7rem;
+}
+
+h1{
+    font-size: 1.9rem;
+    margin-top: 50px;
 }
