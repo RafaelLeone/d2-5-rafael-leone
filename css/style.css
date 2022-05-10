@@ -13,8 +13,32 @@ body{
 .top{
     text-align: center;
     color: white;
+    margin: 100px auto;
+    padding: 30px;
+}
+
+.menu li{
+    display: inline-block;
+    width: 150px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.menu li a:link,
+.menu li a:visited{
+    color: grey;
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(114, 114, 114);
 }
 
 img{
     width: 36%;
+}
+
+.logo{
+    width: 220px;
 }
