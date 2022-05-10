@@ -5,6 +5,8 @@ body{
 }
 
 .back{
+    position: relative;
+    z-index: -2;
     background-image: url(../imagens/pngwing.com.png);
     background-attachment: fixed;
 }
@@ -96,6 +98,16 @@ body{
 
 .fa-solid:hover{
     opacity: 1;
+}
+
+.footer{
+    z-index: -1;
+    margin-top: 100px;
+    position: relative;
+    padding: 120px;
+    background-color: black;
+    color: white;
+    text-align: center;
 }
 
 #about{
