@@ -51,6 +51,13 @@ body{
 .portfolio img{
     padding-top: 10px;
     width: 18%;
+    border-radius: 8px;
+    height: 18%;
+    filter: grayscale(0.7);
+}
+
+.portfolio img:hover{
+    filter: none;
 }
 
 .logo{
