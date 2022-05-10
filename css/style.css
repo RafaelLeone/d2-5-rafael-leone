@@ -1,11 +1,18 @@
 body{
-    background-color: rgb(252, 134, 0);
+    background-color: blue;
 }
 
 .all{
     width: 72%;
-    background-color: blue;
-    margin: auto;
+    background-color: rgb(252, 134, 0);
+    margin: 120px auto;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.top{
+    text-align: center;
+    color: white;
 }
 
 img{
