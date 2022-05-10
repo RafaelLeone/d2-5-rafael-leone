@@ -10,6 +10,7 @@ body{
 }
 
 .all{
+    line-height: 2.5rem;
     width: 72%;
     background-color: rgb(252, 134, 0);
     margin: auto;
@@ -48,6 +49,7 @@ body{
 }
 
 .portfolio img{
+    padding-top: 10px;
     width: 18%;
 }
 
@@ -59,7 +61,15 @@ body{
     float: left;
     width: 36%;
     padding: 40px;
+}
 
+.habilidades label{
+    width: 100px;
+    display: inline-block;
+}
+
+.habilidades progress{
+    accent-color: grey;
 }
 
 #about{
