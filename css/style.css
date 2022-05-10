@@ -42,19 +42,23 @@ body{
     text-decoration-color: rgb(25, 0, 255);
 }
 
-img{
-    width: 36%;
+.portfolio img{
+    width: 18%;
 }
 
 .logo{
     width: 220px;
 }
 
-.pp{
+.pp img{
     float: left;
+    width: 36%;
+    padding: 40px;
+
 }
 
 #about{
+    margin-top: 50px;
     font-size: 1.7rem;
 }
 
