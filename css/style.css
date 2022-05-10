@@ -28,7 +28,7 @@ body{
 .menu li{
     display: inline-block;
     width: 150px;
-    font-size: 1.2rem;
+    font-size: 1.7rem;
     text-transform: uppercase;
 }
 
@@ -46,6 +46,7 @@ body{
 .menu li a:active{
     text-decoration: underline;
     text-decoration-color: rgb(25, 0, 255);
+    color: blue;
 }
 
 .portfolio img{
@@ -79,9 +80,32 @@ body{
     accent-color: grey;
 }
 
+.fa-solid{
+    font-size:xx-large;
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+    width: 100px;
+    line-height: 100px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    opacity: 0.5;
+}
+
+.fa-solid:hover{
+    opacity: 1;
+}
+
 #about{
     margin-top: 50px;
     font-size: 1.7rem;
+}
+
+#contact img{
+    width: 20px;
+    padding-right: 7px;
 }
 
 h1{
