@@ -4,6 +4,10 @@ body{
     font-size: 1.5rem;
 }
 
+.exp{
+    display: inline-block;
+}
+
 .back{
     background-image: url(../imagens/pngwing.com.png);
     background-attachment: fixed;
@@ -49,7 +53,7 @@ body{
     margin: 40%;
     margin-top: 0px;
     margin-bottom: 0px;
-    padding: 30px;
+    padding: 1px;
 }
 
 .menu li{
@@ -90,8 +94,10 @@ body{
 
 .pp img{
     float: left;
-    width: 36%;
-    padding: 40px;
+    width: 26%;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
 }
 
 .habilidades label{
